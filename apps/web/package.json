@@ -1,7 +1,10 @@
 {
   "name": "@nextjs-nestjs-trpc/web",
   "version": "0.0.0",
+  "description": "",
+  "author": "Adler Spencer",
   "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

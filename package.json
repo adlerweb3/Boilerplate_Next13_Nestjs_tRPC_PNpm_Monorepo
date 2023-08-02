@@ -3,17 +3,19 @@
   "version": "0.0.0",
   "description": "Nextjs-Nestjs-tRPC PNpm MonoRepo Root Directory",
   "author": "Adler Spencer",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "pnpm run --parallel dev",
-    "build:server": "pnpm --filter server build",
-    "build:web": "pnpm --filter web build",
-    "start:server": "pnpm --filter server start:prod",
-    "start:web": "pnpm --filter web start",
-    "-----------------": "----------------------------------------------------",
+    "build:server": "pnpm --filter=@nextjs-nestjs-trpc/server build",
+    "build:web": "pnpm --filter=@nextjs-nestjs-trpc/web build",
+    "start:server": "pnpm --filter=@nextjs-nestjs-trpc/server start:prod",
+    "start:web": "pnpm --filter=@nextjs-nestjs-trpc/web start",
+
+    "-| Helpers |-": "--------------------------------------------------------",
+
     "add:root": "pnpm add --workspace-root",
-    "add:server": "pnpm add --filter @nextjs-nestjs-trpc/server",
-    "add:web": "pnpm add --filter @nextjs-nestjs-trpc/web",
+    "add:server": "pnpm add --filter=@nextjs-nestjs-trpc/server",
+    "add:web": "pnpm add --filter=@nextjs-nestjs-trpc/web",
     "add:filter": "pnpm add --filter",
 
     "dev:web": "pnpm run dev --filter @nextjs-nestjs-trpc/web",

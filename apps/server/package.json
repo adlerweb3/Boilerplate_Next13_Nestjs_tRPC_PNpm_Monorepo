@@ -2,10 +2,11 @@
   "name": "@nextjs-nestjs-trpc/server",
   "version": "0.0.0",
   "description": "",
-  "author": "",
+  "author": "Adler Spencer",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "dev": "nest start --watch",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",

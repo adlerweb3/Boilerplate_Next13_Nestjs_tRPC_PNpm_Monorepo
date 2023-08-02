@@ -11,12 +11,9 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@server/*": [
-        "./apps/server/src/*"
-      ],
-      "@web/*": [
-        "./apps/web/*"
-      ]
+      "@root/*": ["./*"],
+      "@server/*": ["./apps/server/src/*"],
+      "@web/*": ["./apps/web/*"]
     }
   }
 }
